@@ -78,7 +78,7 @@ and it is okay to move onto task 2 without waiting for the doctests to finish.
 
 **Task 2:**
 
-Unfortunately, the code is still extremely slow.
+Unfortunately, the code is extremely slow.
 Even though we have functions labeled `async` and we are `await`ing them,
 we are not doing it correctly,
 and the web requests are not happening concurrently.
