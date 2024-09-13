@@ -12,11 +12,8 @@
 ## Background
 
 The [CS40 wardialing lab](https://github.com/mikeizbicki/cmc-csci040/tree/2021fall/lab-wardialing) creates a simple script to scan all computers on the North Korean internet for web servers.
-You should complete the lab in order to get background on this assignment.
-(There is nothing to turn in for the lab, though, so you can gloss over the implementation details if you'd like.)
-The final code takes about an hour to run because it scans all ip addresses sequentially, without concurrency.
 
-In this homework, we will use python's async functions to build a script that can scan arbitrary sections of the internet much faster.
+We will use python's async functions to build a script that can scan arbitrary sections of the internet much faster.
 For example, the following command scans all North Korean ip addresses in only 30 seconds:
 
 ```
@@ -58,11 +55,6 @@ Tuning either of these parameters can improve the scanning performance.
 
 [State of the art scanning tools are able to scan all 4 billion internet addresses in under an hour.](https://www.vice.com/en/article/kbbmyx/now-you-can-scan-the-internet-in-under-an-hour)
 Getting that level of performance requires carefully tuning many other network configuration parameters as well.
-
-## Tasks
-
-Update the `README.md` file so that the test case badges point to your repo.
-Completing each of the tasks below should cause the badges to change from red to green.
 
 **Task 1:**
 
